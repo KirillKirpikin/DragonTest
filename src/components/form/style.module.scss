@@ -1,0 +1,47 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    button{
+        display: inline-block;
+        padding: 20px 70px;    
+        max-width: 260px;
+        background: #EA3118;
+        border-radius: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 0.1em;
+
+        color: #FFFFFF;
+    }
+}
+.mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;    
+    img {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+    }
+    input{
+        background: #F3F3F3;
+        border-radius: 20px;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        width: 500px;
+        padding: 20px 0 20px 60px;       /* identical to box height */
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+}

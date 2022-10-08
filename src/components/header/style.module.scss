@@ -1,0 +1,59 @@
+.header{
+    padding-top: 20px;
+    align-items: center;
+}
+
+.content {
+    justify-content: space-between;
+    
+}
+.user {
+    display: flex;
+    align-items: center;
+    gap: 20px;    
+    p,
+    a{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        padding-left: 20px;
+        font-family: 'Roboto';
+        cursor: pointer;
+
+        color: #FFFFFF;
+        /* identical to box height */
+        &:hover{
+            color:#EA3118;
+        }
+
+    }
+}
+.auth{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 20px;
+    font-family: 'Roboto';
+    cursor: pointer;
+    &:hover{
+        color:#EA3118;
+    }
+
+    color: #FFFFFF;
+}
+.cabinet{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    img{
+        color:#EA3118;
+       
+
+    }
+    
+
+}
